@@ -14,6 +14,41 @@ Each plugin is **self-contained and independently installable**. Install only wh
 | **[code-intelligence](plugins/code-intelligence/README.md)** | Code search and architecture analysis via Exa API | 2 skills |
 | **[skill-tools](plugins/skill-tools/README.md)** | Tools for creating custom Claude skills | 1 skill |
 
+## Status Line Script
+
+A custom status line script that displays real-time session information in your Claude Code terminal.
+
+![Status Line Preview](assets/statusline-preview.png)
+
+**Displays:**
+- Current directory name
+- Model name (e.g., Opus 4.5)
+- Context window usage with visual progress bar
+- Git branch, modified file count, and +/- line changes
+- Session cost
+
+### Setup
+
+1. **Install jq** (required for JSON parsing):
+   ```bash
+   brew install jq
+   ```
+
+2. **Copy the script** to your Claude config:
+   ```bash
+   cp statusline.sh ~/.claude/statusline.sh
+   chmod +x ~/.claude/statusline.sh
+   ```
+
+3. **Configure Claude Code**:
+   ```bash
+   claude config set status_line.command ~/.claude/statusline.sh
+   ```
+
+4. **Restart Claude Code** to see the status line in action.
+
+---
+
 ## Quick Install
 
 ```bash
