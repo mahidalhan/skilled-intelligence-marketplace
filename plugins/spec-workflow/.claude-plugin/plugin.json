@@ -9,5 +9,7 @@
   "homepage": "https://github.com/mahidalhan/skilled-spec/tree/master/plugins/spec-workflow",
   "repository": "https://github.com/mahidalhan/skilled-spec",
   "license": "MIT",
-  "keywords": ["spec-driven", "tdd", "requirements", "EARS", "workflow", "orchestration"]
+  "keywords": ["spec-driven", "tdd", "requirements", "EARS", "workflow", "orchestration"],
+  "skills": "./skills/",
+  "commands": "./commands/"
 }

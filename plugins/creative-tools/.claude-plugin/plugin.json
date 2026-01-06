@@ -8,5 +8,6 @@
   },
   "repository": "https://github.com/mahidalhan/skilled-spec",
   "license": "MIT",
-  "keywords": ["mermaid", "diagrams", "frontend", "design", "ascii", "art", "visualization"]
+  "keywords": ["mermaid", "diagrams", "frontend", "design", "ascii", "art", "visualization"],
+  "skills": "./skills/"
 }

@@ -9,5 +9,6 @@
   "homepage": "https://github.com/mahidalhan/skilled-spec/tree/master/plugins/code-intelligence",
   "repository": "https://github.com/mahidalhan/skilled-spec",
   "license": "MIT",
-  "keywords": ["code-search", "exa", "architecture", "first-principles", "analysis", "github"]
+  "keywords": ["code-search", "exa", "architecture", "first-principles", "analysis", "github"],
+  "skills": "./skills/"
 }

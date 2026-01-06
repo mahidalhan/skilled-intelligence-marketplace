@@ -8,5 +8,6 @@
   },
   "repository": "https://github.com/mahidalhan/skilled-spec",
   "license": "MIT",
-  "keywords": ["git", "commit", "pull-request", "workflow", "quality"]
+  "keywords": ["git", "commit", "pull-request", "workflow", "quality"],
+  "commands": "./commands/"
 }
