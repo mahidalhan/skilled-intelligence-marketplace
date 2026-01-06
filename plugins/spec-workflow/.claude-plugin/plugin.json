@@ -6,8 +6,8 @@
     "name": "Mahid Alhan",
     "url": "https://github.com/mahidalhan"
   },
-  "homepage": "https://github.com/mahidalhan/skilled-intelligence-marketplace/tree/master/plugins/spec-workflow",
-  "repository": "https://github.com/mahidalhan/skilled-intelligence-marketplace",
+  "homepage": "https://github.com/mahidalhan/skilled-spec/tree/master/plugins/spec-workflow",
+  "repository": "https://github.com/mahidalhan/skilled-spec",
   "license": "MIT",
   "keywords": ["spec-driven", "tdd", "requirements", "EARS", "workflow", "orchestration"]
 }

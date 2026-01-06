@@ -5,7 +5,7 @@ Claude Code plugin marketplace providing intelligent development tools for evide
 ## Structure
 
 ```
-skilled-intelligence-marketplace/
+skilled-spec/
 ├── .claude-plugin/
 │   └── marketplace.json           # Marketplace manifest
 ├── plugins/                       # Individual plugins (at repo root)
@@ -35,7 +35,7 @@ skilled-intelligence-marketplace/
 
 ### Testing locally
 ```bash
-/plugin marketplace add /path/to/skilled-intelligence-marketplace
+/plugin marketplace add /path/to/skilled-spec
 /plugin install plugin-name@skilled-intelligence
 ```
 

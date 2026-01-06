@@ -292,3 +292,52 @@ If official plugin dependency support is added (see GitHub issue #9444):
 Successfully restructured the Skilled Intelligence Marketplace from a shared-resource model to independent self-contained plugins. Each of the 3 plugins (spec-workflow, code-intelligence, skill-tools) now contains its own complete skill implementations with no external dependencies. This resolves the issue where installing one plugin would incorrectly install all plugins, and ensures compliance with Claude Code plugin development best practices.
 
 **Status:** ✅ Complete - Ready for Testing
+
+---
+
+## Update: 2025-01-06 - Repository URL Fix
+
+### Issue Identified
+Skills were not being installed when users tried to add the marketplace from another repo. The xml-context-engineering skill (and others) couldn't be found.
+
+### Root Cause
+All documentation and plugin.json files referenced the wrong GitHub repository:
+- **Wrong**: `mahidalhan/skilled-intelligence-marketplace`
+- **Correct**: `mahidalhan/skilled-spec`
+
+### Fix Applied
+Updated repository URLs in:
+- README.md (installation instructions)
+- CLAUDE.md
+- .claude/settings.example.json
+- All 7 plugin.json files
+
+### How to Install (Corrected)
+```bash
+# Add marketplace
+/plugin marketplace add mahidalhan/skilled-spec
+
+# Install individual plugins
+/plugin install workflow-tools@skilled-intelligence
+```
+
+Or add to `.claude/settings.json`:
+```json
+{
+  "extraKnownMarketplaces": {
+    "skilled-intelligence": {
+      "source": {
+        "source": "github",
+        "repo": "mahidalhan/skilled-spec"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "workflow-tools@skilled-intelligence": true
+  }
+}
+```
+
+
+
+

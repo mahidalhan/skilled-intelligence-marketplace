@@ -57,7 +57,7 @@ A custom status line script that displays real-time session information in your 
 
 ```bash
 # Add marketplace
-/plugin marketplace add mahidalhan/skilled-intelligence-marketplace
+/plugin marketplace add mahidalhan/skilled-spec
 
 # Install individual plugins (choose what you need)
 /plugin install spec-workflow@skilled-intelligence
@@ -85,7 +85,7 @@ Create `.claude/settings.json` in your project root:
     "skilled-intelligence": {
       "source": {
         "source": "github",
-        "repo": "mahidalhan/skilled-intelligence-marketplace"
+        "repo": "mahidalhan/skilled-spec"
       }
     }
   },
@@ -196,10 +196,10 @@ Smart commits and comprehensive PR descriptions.
 
 ```bash
 # Git URL
-/plugin marketplace add https://github.com/mahidalhan/skilled-intelligence-marketplace.git
+/plugin marketplace add https://github.com/mahidalhan/skilled-spec.git
 
 # Local development
-/plugin marketplace add /path/to/skilled-intelligence-marketplace
+/plugin marketplace add /path/to/skilled-spec
 ```
 
 ## Troubleshooting

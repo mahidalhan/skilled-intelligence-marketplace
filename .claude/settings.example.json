@@ -3,13 +3,17 @@
     "skilled-intelligence": {
       "source": {
         "source": "github",
-        "repo": "mahidalhan/skilled-intelligence-marketplace"
+        "repo": "mahidalhan/skilled-spec"
       }
     }
   },
   "enabledPlugins": {
     "spec-workflow@skilled-intelligence": true,
     "code-intelligence@skilled-intelligence": true,
-    "skill-tools@skilled-intelligence": true
+    "skill-tools@skilled-intelligence": true,
+    "learning-tools@skilled-intelligence": true,
+    "creative-tools@skilled-intelligence": true,
+    "workflow-tools@skilled-intelligence": true,
+    "git-tools@skilled-intelligence": true
   }
 }
