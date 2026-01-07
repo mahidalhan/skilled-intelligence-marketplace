@@ -9,42 +9,42 @@
       "name": "code-intelligence",
       "source": "./plugins/code-intelligence",
       "description": "Intelligent code search and architectural analysis powered by Exa API. Search billions of GitHub repos for real examples and analyze architectures using first-principles thinking.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "keywords": ["code-search", "exa", "architecture", "first-principles", "analysis", "github"]
     },
     {
       "name": "skill-tools",
       "source": "./plugins/skill-tools",
       "description": "Meta-plugin for creating custom Claude skills. Includes scaffolding, validation, and packaging scripts.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "keywords": ["skill-development", "meta", "scaffolding", "validation", "packaging"]
     },
     {
       "name": "learning-tools",
       "source": "./plugins/learning-tools",
       "description": "Interactive teaching skills with chunked explanations, comprehension checks, and interrupt handling. Use for explaining code, concepts, or learning on-the-go.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "keywords": ["learning", "teaching", "explainer", "education", "comprehension"]
     },
     {
       "name": "creative-tools",
       "source": "./plugins/creative-tools",
       "description": "Creative output skills for diagrams, UI design, generative art, and visual explanations. Produces publication-quality Mermaid diagrams, distinctive frontends, and ASCII visualizations.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "keywords": ["mermaid", "diagrams", "frontend", "design", "ascii", "art", "visualization"]
     },
     {
       "name": "workflow-tools",
       "source": "./plugins/workflow-tools",
       "description": "Development workflow skills for session handoffs, implementation planning, task orchestration, and XML context structuring. Enables seamless multi-session work.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "keywords": ["workflow", "handoff", "planning", "orchestration", "xml", "context"]
     },
     {
       "name": "git-tools",
       "source": "./plugins/git-tools",
       "description": "Git workflow commands for commits, PR descriptions, and code quality enforcement. Follows Rich Hickey's Simple Made Easy principles.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "keywords": ["git", "commit", "pull-request", "workflow", "quality"]
     }
   ]
