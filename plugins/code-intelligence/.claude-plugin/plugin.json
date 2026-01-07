@@ -1,6 +1,6 @@
 {
   "name": "code-intelligence",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Intelligent code search and architectural analysis powered by Exa API. Search billions of GitHub repos for real examples and analyze architectures using first-principles thinking.",
   "author": {
     "name": "Mahid Alhan",

@@ -1,6 +1,6 @@
 {
   "name": "workflow-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Development workflow skills for session handoffs, implementation planning, task orchestration, and XML context structuring. Enables seamless multi-session work.",
   "author": {
     "name": "Mahid Alhan",

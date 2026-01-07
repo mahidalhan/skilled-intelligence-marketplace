@@ -1,6 +1,6 @@
 {
   "name": "skill-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Meta-plugin for creating custom Claude skills. Includes scaffolding, validation, and packaging scripts.",
   "author": {
     "name": "Mahid Alhan",
