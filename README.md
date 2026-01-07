@@ -2,8 +2,6 @@
 
 **Skills, commands, and hacks for Claude Code.**
 
-![Status Line Preview](assets/statusline-preview.png)
-
 Extend Claude Code with custom skills, slash commands, and utilities. Install what you need, skip what you don't.
 
 ## Install
@@ -90,6 +88,8 @@ Smart commits and PR descriptions following best practices.
 | `/describe-pr` | Generate PR description |
 
 ## Status Line
+
+![Status Line Preview](assets/statusline-preview.png)
 
 Custom status line displaying session info. See `statusline.sh`.
 
