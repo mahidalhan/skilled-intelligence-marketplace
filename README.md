@@ -1,20 +1,24 @@
-# Skilled Intelligence
+# Claude Hacks
 
-**Claude Code plugin marketplace for intelligent development tools.**
+**Skills, commands, and hacks for Claude Code.**
+
+![Status Line Preview](assets/statusline-preview.png)
+
+Extend Claude Code with custom skills, slash commands, and utilities. Install what you need, skip what you don't.
 
 ## Install
 
 ```bash
 # Add marketplace
-/plugin marketplace add mahidalhan/skilled-intelligence-marketplace
+/plugin marketplace add mahidalhan/claude-hacks
 
 # Install plugins
-/plugin install code-intelligence@skilled-intelligence
-/plugin install learning-tools@skilled-intelligence
-/plugin install creative-tools@skilled-intelligence
-/plugin install workflow-tools@skilled-intelligence
-/plugin install skill-tools@skilled-intelligence
-/plugin install git-tools@skilled-intelligence
+/plugin install code-intelligence@claude-hacks
+/plugin install learning-tools@claude-hacks
+/plugin install creative-tools@claude-hacks
+/plugin install workflow-tools@claude-hacks
+/plugin install skill-tools@claude-hacks
+/plugin install git-tools@claude-hacks
 ```
 
 ## Plugins & Commands

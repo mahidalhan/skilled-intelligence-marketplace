@@ -1,11 +1,11 @@
-# Skilled Intelligence Marketplace
+# Claude Hacks
 
-Flat marketplace of individual skills and commands. Install only what you need.
+Skills, commands, and hacks for Claude Code. Install only what you need.
 
 ## Structure
 
 ```
-skilled-intelligence/
+claude-hacks/
 ├── .claude-plugin/
 │   └── marketplace.json        # Single source of truth for all plugins
 ├── skills/
@@ -96,8 +96,8 @@ All documentation in root README.md. No per-skill READMEs. Prevents drift.
 ### Testing Changes
 Always test in a SEPARATE project after pushing:
 ```bash
-/plugin marketplace update skilled-intelligence
-/plugin install {plugin-name}@skilled-intelligence
+/plugin marketplace update claude-hacks
+/plugin install {plugin-name}@claude-hacks
 ```
 </critical_learnings>
 
