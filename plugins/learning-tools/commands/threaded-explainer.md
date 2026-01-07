@@ -2,7 +2,7 @@
 description: Learn with chunked explanations and interrupt handling
 ---
 
-# Teach
+# Threaded Explainer
 
 Learn concepts with resumable chunks and lineage tracking.
 
@@ -18,8 +18,8 @@ Uses the @threaded-explainer skill for chunked, interruptible explanations. Ask 
 ## Usage
 
 Provide what you want to learn:
-- `/teach how OAuth2 works`
-- `/teach microservices patterns`
-- `/teach database transactions`
+- `/threaded-explainer how OAuth2 works`
+- `/threaded-explainer microservices patterns`
+- `/threaded-explainer database transactions`
 
 Interrupt anytime with questions - context is preserved.
